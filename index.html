@@ -57,7 +57,7 @@ Touchy(body, {
 var call_again = true;
 function call_client(data){
     if(call_again){
-    sss.client.init("/"); 
+    sss.client.init("http://nifkuza.github.io/"); 
     sss.client.ajax(data, success, fail);
     call_again = false;
     setTimeout(function(){call_again = true;}, 600);
